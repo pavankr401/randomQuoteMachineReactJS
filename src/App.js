@@ -64,12 +64,12 @@ class randomQuoteMachine extends React.Component {
           <div id="">
             <div id="quoteBox">
               <div id="text">
-                <h1 id="quote"><span class="fa fa-quote-left" id="quote-icon"></span> {this.state.quote}</h1>
+                <h1 id="quote"><span className="fa fa-quote-left" id="quote-icon"></span> {this.state.quote}</h1>
                 <p id="author">- {this.state.author}</p>
               </div>
               <div id="box2">
-                <button class="btn" title="post on facebook" ><a href="https://www.facebook.com" target="_blank" class="links"><i class="fa fa-facebook"></i></a></button>
-                <button class="btn" title="post on twitter"><a href="twitter.com/intent/tweet" class="links" id="tweet-quote" target="_blank"><i class="fa fa-twitter"></i></a></button>
+                <button className="btn" title="post on facebook" ><a href="https://www.facebook.com" target="_blank" className="links"><i className="fa fa-facebook"></i></a></button>
+                <button className="btn" title="post on twitter"><a href="twitter.com/intent/tweet" className="links" id="tweet-quote" target="_blank"><i className="fa fa-twitter"></i></a></button>
                 <button id="new-quote" onClick={this.handleClick} title="generate new quote">New quote</button>
               </div>
             </div>
@@ -78,7 +78,7 @@ class randomQuoteMachine extends React.Component {
             </div>
           </div>
         </div>
-
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       </div>)
   }
 }
